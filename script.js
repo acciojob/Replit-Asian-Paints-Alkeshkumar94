@@ -14,7 +14,7 @@ document.getElementById('change_button').addEventListener('click', function() {
   }
 });
 
-document.getElementById('Reset').addEventListener('click', function() {
+document.getElementById('reset_button').addEventListener('click', function() {
   // Reset all grid items to transparent
   const gridItems = document.querySelectorAll('.grid-item');
   gridItems.forEach(item => item.style.backgroundColor = 'transparent');
